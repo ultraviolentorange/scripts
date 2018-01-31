@@ -1,5 +1,3 @@
-# One script to rule(install) them all.
-
 # Homebrew
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
@@ -10,6 +8,10 @@ brew install htop
 brew install nmap
 brew install thefuck
 brew install the_silver_searcher
+brew install cmake
+
+# Frameworks & Libraries
+brew install boost
 
 # Browsers
 brew cask install firefox
@@ -28,6 +30,5 @@ brew cask install sublime-text
 brew cask install the-unarchiver
 brew cask install alfred
 brew install transmission
-brew cask install telegram-desktop
+brew cask install telegram
 brew cask install cheatsheet
-
